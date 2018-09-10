@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./app.css" />
+    <title>Group Details</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <div class="card card-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-7">
+              <h3>Administrators <i class="fas fa-circle text-success small"></i></h3>
+              <h5>Group of users with a full set of permissions</h5>
+              <div class="mt-4">Created: <span class="font-weight-bold"> 01/01/0101 01:00 </span></div>
+              <div class="mb-4">Updated: <span class="font-weight-bold"> 02/01/0101 02:00 </span></div>
+            </div>
+            <div class="col-5">
+              <div class="form-group">
+                <button class="btn btn-outline-secondary"> <i class="fas fa-lock"></i> permissons</button>
+                <button class="btn btn-secondary"> <i class="fas fa-edit"></i> edit</button>
+                <button class="btn btn-secondary"> <i class="fas fa-copy"></i> copy</button>
+                <button class="btn btn-secondary"> <i class="fas fa-trash-alt"></i> delete</button>
+              </div>
+            </div>
+          </div>
+            <div class="row mt-5">
+              <div class="col-2">
+                <h3>Members</h3>
+              </div>
+              <div class="col mr-5">
+                <button type="submit" class="btn btn-secondary"> <i class="fas fa-plus"></i> User</button>
+              </div>
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="&#xf0e0; Search">
+              </div>
+            </div>
+            <table class="table table-hover mt-4 vuetable ">
+            <thead>
+              <tr>
+                <th scope="col">Name<span class="flex-column mr-auto"><i class="fas fa-caret-up fa-lg"></i><i class="fas fa-caret-down fa-lg"></i></span></th>
+                <th scope="col">Email<i class="fas fa-caret-up fa-lg"></i><i class="fas fa-caret-down fa-lg"></i></th>
+                <th scope="col">Status<i class="fas fa-caret-up fa-lg"></i><i class="fas fa-caret-down fa-lg"></i></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">Name</td>
+                <td>email@email.com</td>
+                <td><i class="fas fa-circle text-success small"></i> Active</td>
+                <td class="actions popout vuetable-slot"><i class="fas fa-trash-alt"></i></td>
+              </tr>
+              <tr>
+                <td scope="row">Name</td>
+                <td>email@email.com</td>
+                <td><i class="fas fa-circle text-success small"></i> Active</td>
+                <td class="actions popout vuetable-slot"><i class="fas fa-trash-alt"></i></td>
+              </tr>
+              <tr>
+                <td scope="row">Name</td>
+                <td>email@email.com</td>
+                <td><i class="fas fa-circle text-success small"></i> Active</td>
+                <td class="actions popout vuetable-slot"><i class="fas fa-trash-alt"></i></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="text-secondary">1-4 of 4 Groups</div>
+      </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
